@@ -1,39 +1,54 @@
-Main Contents
+# 💳 Credit Card Fraud Detection Using Machine Learning
 
-📊 Exploratory Data Analysis
+### Identifying Potentially Fraudulent Transactions Through Predictive Analytics
 
-⚖️ Handling Class Imbalance with undersampling / oversampling
+An applied machine learning project focused on credit card fraud detection using classification techniques, exploratory data analysis, and model evaluation.
 
-🤖 Model Training:
+The goal is to investigate how machine learning can help distinguish potentially fraudulent transactions from legitimate transactions in an imbalanced financial dataset.
 
-Logistic Regression
+---
 
-Random Forest
+## 📌 Project Overview
 
-XGBoost / LightGBM (if used)
+Credit card fraud is a significant challenge for financial institutions. Automated fraud detection systems can help identify suspicious transactions and support timely investigation.
 
-📈 Metrics: ROC-AUC, Confusion Matrix, Precision-Recall Curve
+This project explores a machine learning workflow for fraud detection, including data exploration, class imbalance handling, predictive model development, and evaluation.
 
-Highlights
+**Project type:** Machine Learning | Binary Classification | Financial Fraud Analytics
 
-Focused on imbalanced binary classification
+## 🎯 Objectives
 
-Demonstrates pipeline for fraud detection projects
+- Explore transaction data and understand its characteristics.
+- Investigate the imbalance between fraudulent and legitimate transactions.
+- Examine techniques for handling imbalanced classification data.
+- Train and compare machine learning classification models.
+- Evaluate model performance using appropriate metrics.
+- Explore how predictive analytics can support financial fraud detection.
 
-Model comparison and fine-tuning
+## 🔍 Project Workflow
 
-Run This Notebook
+### 1. Exploratory Data Analysis
 
-python
-Copy
-Edit
-# In a Jupyter environment
-!jupyter notebook credit-card-fraud-detection-predictive-models.ipynb
-Use Case
+Explore the dataset to understand feature distributions, class imbalance, and patterns that may be relevant to fraud detection.
 
-Practical fraud detection modeling
+### 2. Data Preparation
 
-ML for financial security
+Prepare the data for model development, including appropriate preprocessing and separation of training and evaluation datasets.
 
-Learning classification and evaluation techniques
+### 3. Handling Class Imbalance
 
+Fraud datasets often contain substantially fewer fraudulent transactions than legitimate transactions.
+
+The project materials describe undersampling and oversampling as approaches to investigate when addressing this challenge.
+
+Resampling should be applied only to the training data to avoid information leakage into model evaluation.
+
+### 4. Model Development
+
+The notebook describes a predictive modeling workflow involving classification methods.
+
+Potential models documented in the project outline include:
+
+- **Logistic Regression** — A baseline classification approach.
+- **Random Forest** — An ensemble method for classification.
+- **XGBoost or LightGBM** — Gradient-boosting methods
